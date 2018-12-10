@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import org.json.JSONObject;
+
 public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton addButton;
@@ -50,5 +52,19 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+
+    public JSONObject updateStock(JSONObject stockJSON) {
+
+        return stockJSON;
+    }
+
+
+    private static class MyThread extends Thread {
+        @Override
+        public void run() {
+            //update stock info
+        }
+    }
 
 }

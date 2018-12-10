@@ -1,8 +1,16 @@
 <resources>
     <string name="app_name">StockPortfolio</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Search dialog fragment text -->
     <string name="search">Enter A Stock Symbol</string>
     <string name="go">Go</string>
     <string name="cancel">Cancel</string>
+
+
+    <!--Stock JSON names-->
+    <string name="name">Name</string>
+    <string name="symbol">Symbol</string>
+    <string name="lastPrice">LastPrice</string>
+    <string name="change">Change</string>
+    <string name="timestamp">Timestamp</string>
 </resources>
